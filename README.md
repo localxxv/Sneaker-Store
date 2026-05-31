@@ -92,7 +92,11 @@ src/
 
 ## Screenshots
 
-Coming soon
+![Home page](./docs/screenshots/home.png)
+
+![Products section](./docs/screenshots/products.png)
+
+![Shopping cart](./docs/screenshots/cart.png)
 
 ## What I Learned
 
