@@ -1,16 +1,116 @@
-# React + Vite
+# Sneaker Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern responsive sneaker store built with React and Vite.
 
-Currently, two official plugins are available:
+The project allows users to browse sneaker products, filter them by category, add products to the shopping cart, change quantities, remove items and calculate the total cart price.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+Coming soon
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Modern responsive landing page
+* Product catalog
+* Category filtering: All / Women / Men / Kids
+* Shopping cart
+* Add products to cart
+* Increase and decrease product quantity
+* Remove products from cart
+* Clear cart
+* Cart total price calculation
+* Component-based React structure
+* Clean CSS styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS
+* ESLint
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/localxxv/Sneaker-Store.git
+```
+
+Go to the project folder:
+
+```bash
+cd Sneaker-Store
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── AboutSection.jsx
+│   ├── Cart.jsx
+│   ├── CategoriesSection.jsx
+│   ├── CategoryCard.jsx
+│   ├── Footer.jsx
+│   ├── GallerySection.jsx
+│   ├── Hero.jsx
+│   ├── HeroVisual.jsx
+│   ├── Logo.jsx
+│   ├── Navbar.jsx
+│   ├── ProductCard.jsx
+│   ├── ProductFilters.jsx
+│   ├── ProductsSection.jsx
+│   └── SectionHeading.jsx
+├── data/
+│   └── storeData.js
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Screenshots
+
+Coming soon
+
+## What I Learned
+
+During this project I practiced:
+
+* Building a React application with reusable components
+* Working with component props and state
+* Filtering product data
+* Creating shopping cart logic
+* Updating item quantities
+* Structuring a frontend project for a portfolio
+
+## Future Improvements
+
+* Save cart items in localStorage
+* Add product search
+* Add product sorting by price
+* Add product details page
+* Add wishlist / favorites
+* Add checkout page
+* Add tests
